@@ -1,0 +1,26 @@
+body{background: plum
+}
+h1{text-align: center;
+    color: blueviolet;
+    font-family: "Adamina"
+}
+
+h2{text-align: center;
+   color: plum;
+font-family: "Adamina"
+}
+
+button{color: blueviolet; background: plum; font-family: "Adamina"}
+
+#no{ float: right}
+table{margin: auto}
+.horizontal{ border-top: 3px solid blueviolet; border-bottom: 3px solid blueviolet }
+.vertical{ border-left: 3px solid blueviolet; border-right: 3px solid blueviolet }
+td{ height: 100px; width: 100px; text-align: center; font-size: 60px; font-family: "Adamina"; color: plum}
+.tdWhite{color: whitesmoke}
+.tdGreen{color: green}
+.tdPlum{color: plum}
+.tdRed{color:red}
+.tdBlueviolet{color: blueviolet}
+.unclickable { pointer-events: none }
+.clickable { pointer-events: auto }

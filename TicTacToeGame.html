@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>Tic-Tac-Toe</title>
+    <link href="https://fonts.googleapis.com/css?family=Adamina" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="tictactoe.css" />
+   
+</head>
+<body>
+    <h1>Would you like to play a Tic-Tac-Toe Game?</h1><hr>
+    <button id="yes">Yes</button>
+    <button id="no" onclick="closeWindow()">No</button>
+<table>
+<tr>
+<td></td>
+<td id="vertical"></td>
+<td></td>
+</tr>
+
+<tr>
+<td id="horizontal"></td>
+<td id="both"></td>
+<td id="horizontal"></td>
+</tr>
+
+<tr>
+<td></td>
+<td id="vertical"></td>
+<td></td>
+</tr>
+</table><br>
+
+<h2>O player's score: <span id="o">0</span></h2>
+<h2>X player's score: <span id="x">0</span></h2>
+
+<script src="tictactoe.js"></script>
+</body>
+</html>
